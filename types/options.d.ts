@@ -64,7 +64,7 @@ export interface ComponentOptions<
   methods?: Methods;
   watch?: Record<string, WatchOptionsWithHandler<any> | WatchHandler<any> | string>;
 
-  el?: Element | String;
+  el?: Element | string;
   template?: string;
   render?(createElement: CreateElement): VNode;
   renderError?: (h: () => VNode, err: Error) => VNode;
